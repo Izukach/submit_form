@@ -1,0 +1,92 @@
+body{
+  background-color: rgb(133, 40, 219);
+}
+
+.white{
+  background-color: aliceblue;
+  height: 450px;
+  margin-left: 500px;
+  margin-right:500px ;
+  margin-top: 150px;
+  border-radius: 12px;
+}
+
+h2{
+  text-align: center;
+  /* font-style: italic; */
+  color:rgb(82, 82, 80);
+  padding-top:50px;
+  
+}
+
+#email{
+  height: 45px;
+  display: block;
+  margin-left: 80px;
+  margin-top: 50px
+  border-radius: ;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  width: 300px;
+  background-color: #fff;
+}
+
+
+#password { 
+  height: 45px;
+  display: block;
+  margin-left: 80px;
+  margin-top: 15px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  width: 300px;
+  /* background-color: rgb(201, 194, 194); */
+}
+#but {
+  display: block;
+  margin-left: 100px;
+  margin-right: 200px;
+  margin-top: 60px;
+  height: 60px;
+  width: 300px;
+  background-color: rgb(149, 149, 252);
+  border: none;
+}
+
+#but span {
+  color: azure;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#but span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#but:hover span {
+  padding-right: 25px;
+}
+
+#but:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#check {
+  margin-top: 50px;
+  margin-left: 82px;
+  margin-right: 20px;
+}
+::placeholder{
+  font-style: italic;
+  color:aquamarine;
+}
